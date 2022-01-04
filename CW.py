@@ -61,13 +61,13 @@ if name == 1:
 		os.system('git clone https://github.com/BOT-033/Sensei')
 		os.system('mv  Sensei ~')
 		z()
-		os.system("Done....")
+		print("Done....")
 
 	elif b== 2:
 		os.system('rm -rf random')
 		os.system('git clone https://github.com/lovehacker404/random')
 		os.system('mv random ~')
-		os.system("Done....")
+		print("Done....")
 		z()
 
 	elif b == 3:
@@ -75,7 +75,8 @@ if name == 1:
 		os.system('git clone https://github.com/lovehacker404/email')
 		os.system('mv email ~')
 		z()
-		os.system("Done....")
+		print("Done....")
+		
 	elif b == 4:
 		os.system('rm -rf bint')
 		os.system('git clone https://github.com/BotolMehedi/bint')
@@ -83,20 +84,20 @@ if name == 1:
 		os.system('username and pass = botolbana')
 		time.sleep(5)
 		z()
-		os.system("Done....")
+		print("Done....")
 		
 	elif b == 5:
 		os.system('rm -rf IMPERIAL')
 		os.system('git clone https://github.com/Hunter-alamin/IMPERIAL')
 		os.system('mv IMPERIAL ~')
 		z()
-		os.system("Done....")
+		print("Done....")
 	elif b == 6:
 		os.system('rm -rf CRACK-OLD')
 		os.system('git clone https://github.com/Dumai-991/CRACK-OLD')
 		os.system('mv CRACK-OLD ~')
 		z()
-		os.system("Done....")
+		print("Done....")
 
 	else:
 		print("Wrong number ")
@@ -113,21 +114,21 @@ elif name == 2:
 		os.system('git clone https://github.com/zaypaihtet/ZPH-DEFACE')
 		os.system('mv ZPH-DEFACE ~')
 		z()
-		os.system("Done....")
+		print("Done....")
 
 	elif c== 2:
 		os.system('rm -rf sqlmap')
 		os.system('git clone https://github.com/sqlmapproject/sqlmap')
 		z()
 		os.system('mv sqlmap ~')
-		os.system("Done....")
+		print("Done....")
 
 	elif c== 3:
 		os.system('psqli-pro')
 		os.system('git clone https://github.com/Agressiv1njector/psqli-pro')
 		os.system('mv  psqli-pro ~')
 		z()
-		os.system("Done....")
+		print("Done....")
 
 	else:
 		print(RED+'Wrong number ')
