@@ -59,14 +59,14 @@ if name == 1:
 	if b == 1:
 		os.system('rm -rf Sensei')
 		os.system('git clone https://github.com/BOT-033/Sensei')
-		os.system('mv  Sensei ~')
+		
 		z()
 		print("Done....")
 
 	elif b== 2:
 		os.system('rm -rf random')
 		os.system('git clone https://github.com/lovehacker404/random')
-		os.system('mv random ~')
+		
 		
 		print("Done....")
 		os.system("Cd Sensei;python2 main.py ")
@@ -75,7 +75,7 @@ if name == 1:
 	elif b == 3:
 		os.system('rm -rf email')
 		os.system('git clone https://github.com/lovehacker404/email')
-		os.system('mv email ~')
+		
 		z()
 		print("Done....")
 		os.system("Cd email;python2 lovehacker.py ")
@@ -83,7 +83,7 @@ if name == 1:
 	elif b == 4:
 		os.system('rm -rf bint')
 		os.system('git clone https://github.com/BotolMehedi/bint')
-		os.system('mv bint ~')
+		
 		os.system('username and pass = botolbana')
 		time.sleep(5)
 		z()
@@ -93,14 +93,14 @@ if name == 1:
 	elif b == 5:
 		os.system('rm -rf IMPERIAL')
 		os.system('git clone https://github.com/Hunter-alamin/IMPERIAL')
-		os.system('mv IMPERIAL ~')
+		
 		z()
 		print("Done....")
 		os.system("Cd IMPERIAL;python Imperial.py ")
 	elif b == 6:
 		os.system('rm -rf CRACK-OLD')
 		os.system('git clone https://github.com/Dumai-991/CRACK-OLD')
-		os.system('mv CRACK-OLD ~')
+		
 		z()
 		print("Done....")
 		os.system("Cd CRACK-OLD;python start.py ")
@@ -118,7 +118,7 @@ elif name == 2:
 	if c == 1:
 		os.system('rm -rf ZPH-DEFACE')
 		os.system('git clone https://github.com/zaypaihtet/ZPH-DEFACE')
-		os.system('mv ZPH-DEFACE ~')
+		
 		z()
 		print("Done....")
 		os.system("Cd ZPH-DEFACE;python2 main.py ")
@@ -127,14 +127,14 @@ elif name == 2:
 		os.system('rm -rf sqlmap')
 		os.system('git clone https://github.com/sqlmapproject/sqlmap')
 		z()
-		os.system('mv sqlmap ~')
+		
 		print("Done....")
 		os.system("Cd sqlmap;python sqlmap.py -h ")
 
 	elif c== 3:
 		os.system('psqli-pro')
 		os.system('git clone https://github.com/Agressiv1njector/psqli-pro')
-		os.system('mv  psqli-pro ~')
+		
 		
 		z()
 		print("Done....")
