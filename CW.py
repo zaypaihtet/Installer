@@ -61,7 +61,7 @@ if name == 1:
 		os.system('git clone https://github.com/BOT-033/Sensei')
 		os.system('mv  Sensei ~')
 		z()
-                os.system("Done....")
+		os.system("Done....")
 
 	elif b== 2:
 		os.system('rm -rf random')
