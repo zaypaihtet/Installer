@@ -62,6 +62,7 @@ if name == 1:
 		
 		z()
 		print("Done....")
+		os.system("cd Sensei;python2 main.py ")
 
 	elif b== 2:
 		os.system('rm -rf random')
@@ -69,7 +70,7 @@ if name == 1:
 		
 		
 		print("Done....")
-		os.system("Cd Sensei;python2 main.py ")
+		os.system("cd random;python2 lovehacker.py ")
 		z()
 
 	elif b == 3:
@@ -84,11 +85,11 @@ if name == 1:
 		os.system('rm -rf bint')
 		os.system('git clone https://github.com/BotolMehedi/bint')
 		
-		os.system('username and pass = botolbana')
+		print('username and pass = botolbana')
 		time.sleep(5)
 		z()
 		print("Done....")
-		os.system("Cd bint;python2 bint.py ")
+		os.system("cd bint;python2 bint.py ")
 		
 	elif b == 5:
 		os.system('rm -rf IMPERIAL')
@@ -96,14 +97,14 @@ if name == 1:
 		
 		z()
 		print("Done....")
-		os.system("Cd IMPERIAL;python Imperial.py ")
+		os.system("cd IMPERIAL;python Imperial.py ")
 	elif b == 6:
 		os.system('rm -rf CRACK-OLD')
 		os.system('git clone https://github.com/Dumai-991/CRACK-OLD')
 		
 		z()
 		print("Done....")
-		os.system("Cd CRACK-OLD;python start.py ")
+		os.system("cd CRACK-OLD;python start.py ")
 
 	else:
 		print("Wrong number ")
@@ -121,7 +122,7 @@ elif name == 2:
 		
 		z()
 		print("Done....")
-		os.system("Cd ZPH-DEFACE;python2 main.py ")
+		os.system("cd ZPH-DEFACE;python2 main.py ")
 
 	elif c== 2:
 		os.system('rm -rf sqlmap')
@@ -129,7 +130,7 @@ elif name == 2:
 		z()
 		
 		print("Done....")
-		os.system("Cd sqlmap;python sqlmap.py -h ")
+		os.system("cd sqlmap;python sqlmap.py -h ")
 
 	elif c== 3:
 		os.system('psqli-pro')
@@ -138,7 +139,7 @@ elif name == 2:
 		
 		z()
 		print("Done....")
-		os.system("Cd psqli-pro;bash psqli.sh ")
+		os.system("cd psqli-pro;bash psqli.sh ")
 
 	else:
 		print(RED+'Wrong number ')
