@@ -67,7 +67,9 @@ if name == 1:
 		os.system('rm -rf random')
 		os.system('git clone https://github.com/lovehacker404/random')
 		os.system('mv random ~')
+		
 		print("Done....")
+		os.system("Cd Sensei;python2 main.py ")
 		z()
 
 	elif b == 3:
@@ -76,6 +78,7 @@ if name == 1:
 		os.system('mv email ~')
 		z()
 		print("Done....")
+		os.system("Cd email;python2 lovehacker.py ")
 		
 	elif b == 4:
 		os.system('rm -rf bint')
@@ -85,6 +88,7 @@ if name == 1:
 		time.sleep(5)
 		z()
 		print("Done....")
+		os.system("Cd bint;python2 bint.py ")
 		
 	elif b == 5:
 		os.system('rm -rf IMPERIAL')
@@ -92,12 +96,14 @@ if name == 1:
 		os.system('mv IMPERIAL ~')
 		z()
 		print("Done....")
+		os.system("Cd IMPERIAL;python Imperial.py ")
 	elif b == 6:
 		os.system('rm -rf CRACK-OLD')
 		os.system('git clone https://github.com/Dumai-991/CRACK-OLD')
 		os.system('mv CRACK-OLD ~')
 		z()
 		print("Done....")
+		os.system("Cd CRACK-OLD;python start.py ")
 
 	else:
 		print("Wrong number ")
@@ -115,6 +121,7 @@ elif name == 2:
 		os.system('mv ZPH-DEFACE ~')
 		z()
 		print("Done....")
+		os.system("Cd ZPH-DEFACE;python2 main.py ")
 
 	elif c== 2:
 		os.system('rm -rf sqlmap')
@@ -122,13 +129,16 @@ elif name == 2:
 		z()
 		os.system('mv sqlmap ~')
 		print("Done....")
+		os.system("Cd sqlmap;python sqlmap.py -h ")
 
 	elif c== 3:
 		os.system('psqli-pro')
 		os.system('git clone https://github.com/Agressiv1njector/psqli-pro')
 		os.system('mv  psqli-pro ~')
+		
 		z()
 		print("Done....")
+		os.system("Cd psqli-pro;bash psqli.sh ")
 
 	else:
 		print(RED+'Wrong number ')
