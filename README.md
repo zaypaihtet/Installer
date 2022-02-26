@@ -1,4 +1,4 @@
-# Installer
+# Install tool
 
 pkg install python3
 
